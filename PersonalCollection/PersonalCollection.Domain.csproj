@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Entities\Collections\" />
+    <Folder Include="Entities\Items\" />
+    <Folder Include="Entities\Comments\" />
+    <Folder Include="Entities\Likes\" />
+    <Folder Include="Entities\AdminPermission\" />
+    <Folder Include="Entities\RolePermission\" />
+    <Folder Include="Entities\Permissions\" />
+    <Folder Include="Entities\Roles\" />
+  </ItemGroup>
+
+</Project>
