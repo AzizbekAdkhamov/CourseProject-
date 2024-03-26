@@ -1,0 +1,6 @@
+@PersonalCollection.API_HostAddress = http://localhost:5104
+
+GET {{PersonalCollection.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
