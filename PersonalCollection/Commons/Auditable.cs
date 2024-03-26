@@ -1,7 +1,6 @@
 ﻿namespace PersonalCollection.Domain.Commons;
-public class Auditable
+public class Auditable : BaseEntity<int>
 {
-    public long Id { get; set; }
     public DateTime CreatedAt {get; set;}
     public DateTime LastUpdatedAt { get; set;}
 }
