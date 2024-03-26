@@ -11,7 +11,7 @@ public class Users : BaseEntity<int>
 
     public string Password { get; set; }
 
-    public bool IsBlocked { get; set; }
+    public bool IsBlocked { get; set; } = false;
 
     public Roles Role { get; set; }
 
