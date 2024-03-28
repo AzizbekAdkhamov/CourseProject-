@@ -7,13 +7,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="DTOs\Item\ItemRequest.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Atributes\" />
     <Folder Include="Mappers\" />
     <Folder Include="Interfaces\" />
     <Folder Include="Services\" />
-    <Folder Include="Exceptions\" />
-    <Folder Include="Extansions\" />
-    <Folder Include="DTOs\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="DTOs\Item\ItemRequest.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PersonalCollection\PersonalCollection.Domain.csproj" />
   </ItemGroup>
 
 </Project>

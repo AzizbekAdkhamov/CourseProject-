@@ -1,4 +1,6 @@
-﻿namespace PersonalCollection.Domain.Entities.User;
+﻿using PersonalCollection.Domain.Enums;
+
+namespace PersonalCollection.Domain.Entities.User;
 public static  class RolePermission
 {
     public static Dictionary<Roles, Permissions> RolePermissions = new Dictionary<Roles, Permissions>
